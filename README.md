@@ -20,8 +20,6 @@ This project trains a custom Transformer model on the **Opus Books** dataset to 
 
 ```text
 VTRANSFORMER/
-├── opus_books_weights/  # Checkpoints and saved model weights
-├── runs/                # TensorBoard logs
 ├── tokenizer_en.json    # Trained English subword tokenizer
 ├── tokenizer_it.json    # Trained Italian subword tokenizer
 ├── vconfig.py           # Configuration dictionary for model & training hyperparameters
@@ -46,7 +44,7 @@ The default configurations used in `vconfig.py` and `vmodel.py`:
 | Sequence Length | 350 | Maximum token sequence length |
 | Batch Size | 8 | Training batch size |
 | Learning Rate | 1e-4 | Learning rate for the Adam optimizer |
-| Dataset | opus_books | Source corpus (en $\rightarrow$ it) |
+| Dataset | opus_books | Source corpus (it $\rightarrow$ en) |
 
 ---
 
