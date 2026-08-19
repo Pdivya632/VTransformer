@@ -1,4 +1,3 @@
-# Transformer
 # Transformer from Scratch ( Italian to English Translation)
 
 A PyTorch implementation of the sequence-to-sequence Transformer architecture built from scratch, based on the landmark paper ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762). 
