@@ -3,7 +3,7 @@
 
 A PyTorch implementation of the sequence-to-sequence Transformer architecture built from scratch, based on the landmark paper ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762). 
 
-This project trains a custom Transformer model on the **Opus Books** dataset to perform machine translation (English → Italian).
+This project trains a custom Transformer model on the **Opus Books** dataset to perform machine translation ( Italian → English).
 
 ---
 
